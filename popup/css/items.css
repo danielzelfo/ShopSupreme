@@ -1,0 +1,63 @@
+body {
+	min-width:610px;
+	background-image: url("../Shop Logo.png");
+	background-size: 6.25%;
+}
+
+#popup {
+	width: 608px;
+	background-color: white;
+	font-family: Courier;
+	border: 1px solid black;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#itemHeaders {
+	width: 100%;
+}
+
+.itemDesc {
+	display: inline;
+	width: 146px;
+}
+.itemHeaders {
+	display: inline-block;
+	width: 142px;
+}
+
+#itemsForm {
+	position: relative;
+	width: 608px;
+}
+#submit {
+	position: absolute;
+	right: 0;
+}
+
+input, button {
+	font-family: Courier;
+}
+
+input {
+	background-color: red;
+	border: 1px solid white;
+	color: white;
+}
+
+input::placeholder{
+	color: rgba(255,255,255,.75);
+}
+
+button {
+	background-color: red;
+	border: 1px solid black;
+}
+
+button:hover {
+	background-color: black;
+	border: 1px solid red;
+	color: red;
+}

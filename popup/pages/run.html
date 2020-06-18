@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/run.css" />
+	</head>
+	<body>
+		
+		<div id="popup">
+		
+			<p id="time"></p>
+			
+			<div id="autoRunBox">
+				<input type="checkbox" id="toggleAutoRun"> auto run<br />
+				<label for="timeInput">Enter time to run: </label><input type="time" id="timeInput" value="11:00:00">
+			</div>
+			<br />
+			
+			<div id="autoProcessPayment">
+				<input type="checkbox" id="toggleAutoProcessPayment"> click process payment?<br />
+				<label for="checkoutDelayInput">Enter checkout delay: </label><input type="text" id="checkoutDelayInput" value="250">
+			</div>
+			
+			<br /><hr>
+			
+			<center><table>
+				<tr>
+					<td id="editBox">
+						<a href="items.html">Edit Items</a><br /><br />
+						<a href="checkoutInfo.html">Edit Checkout Information</a>
+					</td>
+					<td id="statusBox">
+						<p>Current Status: </p>
+						<p id="status"></p>
+						<button id="statusChange">Activate</button>
+					</td>
+				</tr>
+			</table></center>
+			
+			<hr><br />
+			
+			<button id="run">Run Now</button>
+		</div>
+		
+		<script src="../js/global.js"></script>
+		<script src="../js/run.js"></script>
+	</body>
+</html>

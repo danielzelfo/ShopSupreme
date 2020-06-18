@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="../css/checkoutInfo.css" />
+</head>
+
+<body>
+
+
+
+
+
+	<div id="popup">
+		<h3>Billing Information</h3>
+		<div>
+			<label for="name">Name: *</label>
+			<input id="name" placeholder="enter full name" required>
+		</div>
+		<div>
+			<label for="email">Email: *</label>
+			<input type="email" id="email" placeholder="enter email" required>
+		</div>
+		<div>
+			<label for="phone">Phone: *</label>
+			<input type="tel" id="phone" placeholder="enter phone number" required>
+		</div>
+		<div>
+			<label for="address">Address: *</label>
+			<input id="address" placeholder="enter street address">
+		</div>
+		<div>
+			<label for="apt">Apt, unit, etc: </label>
+			<input id="apt" placeholder="enter apt#, unit#, ...">
+		</div>
+		<div>
+			<label for="zip">Zip: *</label>
+			<input id="zip" placeholder="enter zip code" required>
+		</div>
+		<div>
+			<label for="city">City: *</label>
+			<input id="city" placeholder="enter city" required>
+		</div>
+		<div>
+			<label for="state">State: *</label>
+			<select id="state" required>
+				<option value="AL">AL</option>
+				<option value="AK">AK</option>
+				<option value="AS">AS</option>
+				<option value="AZ">AZ</option>
+				<option value="AR">AR</option>
+				<option value="CA">CA</option>
+				<option value="CO">CO</option>
+				<option value="CT">CT</option>
+				<option value="DE">DE</option>
+				<option value="DC">DC</option>
+				<option value="FM">FM</option>
+				<option value="FL">FL</option>
+				<option value="GA">GA</option>
+				<option value="GU">GU</option>
+				<option value="HI">HI</option>
+				<option value="ID">ID</option>
+				<option value="IL">IL</option>
+				<option value="IN">IN</option>
+				<option value="IA">IA</option>
+				<option value="KS">KS</option>
+				<option value="KY">KY</option>
+				<option value="LA">LA</option>
+				<option value="ME">ME</option>
+				<option value="MH">MH</option>
+				<option value="MD">MD</option>
+				<option value="MA">MA</option>
+				<option value="MI">MI</option>
+				<option value="MN">MN</option>
+				<option value="MS">MS</option>
+				<option value="MO">MO</option>
+				<option value="MT">MT</option>
+				<option value="NE">NE</option>
+				<option value="NV">NV</option>
+				<option value="NH">NH</option>
+				<option value="NJ">NJ</option>
+				<option value="NM">NM</option>
+				<option value="NY">NY</option>
+				<option value="NC">NC</option>
+				<option value="ND">ND</option>
+				<option value="MP">MP</option>
+				<option value="OH">OH</option>
+				<option value="OK">OK</option>
+				<option value="OR">OR</option>
+				<option value="PW">PW</option>
+				<option value="PA">PA</option>
+				<option value="PR">PR</option>
+				<option value="RI">RI</option>
+				<option value="SC">SC</option>
+				<option value="SD">SD</option>
+				<option value="TN">TN</option>
+				<option value="TX">TX</option>
+				<option value="UT">UT</option>
+				<option value="VT">VT</option>
+				<option value="VI">VI</option>
+				<option value="VA">VA</option>
+				<option value="WA">WA</option>
+				<option value="WV">WV</option>
+				<option value="WI">WI</option>
+				<option value="WY">WY</option>
+			</select>
+		</div>
+		<div>
+			<label for="country">Country: *</label>
+			<select id="country" required>
+				<option value="USA" selected="selected">USA</option>
+				<option value="CANADA">CANADA</option>
+			</select>
+		</div>
+		<div>
+			<label for="card">Card number: *</label>
+			<input id="card" placeholder="enter card number" required>
+		</div>
+		<div>
+			<label for="expMo">Card expiration month: *</label>
+			<input id="expMo" placeholder="enter expiration month" required>
+		</div>
+		<div>
+			<label for="expYr">Card expiration year: *</label>
+			<input id="expYr" placeholder="enter expiration year" required>
+		</div>
+		<div>
+			<label for="cvv">CVV: *</label>
+			<input id="cvv" placeholder="enter card CVV" required>
+		</div>
+		<button id="cancel" style="display: none" >cancel</button>
+		<button id="submit">Finish</button>
+	</div>
+	<script src="../js/global.js"></script>
+	<script src="../js/checkoutInfo.js"></script>
+</body>
+</html>

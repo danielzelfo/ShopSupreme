@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset = "UTF-8" />
+	<link rel="stylesheet" href="../css/items.css">
+</head>
+
+<body>
+	<div id="popup">
+		<div id="itemsForm">
+			<label for="numItems">Enter the number of items: </label>
+			<input id="numItems" type="number" min="0" value="1" />
+			<br /><br />
+			
+			
+			<!--
+			
+				TODO
+				
+				
+				
+				SPACE OUT ITEM HEADERS
+			
+			
+			
+			
+			-->
+			
+			
+			<!--
+			<table id="itemHeaders">
+				<tr>
+					<td><label class="itemHeaders">Category:</label></td>
+					<td><label class="itemHeaders">Item Keywords:</label></td>
+					<td><label class="itemHeaders">Color:</label></td>
+					<td><label class="itemHeaders">Size:</label></td>
+				</tr>
+				
+			</table>
+			-->
+			<div id="itemHeaders">
+				<label class="itemHeaders">Category:</label>
+				<label class="itemHeaders">Item Keywords:</label>
+				<label class="itemHeaders">Color:</label>
+				<label class="itemHeaders">Size:</label>
+			</div>
+			<br />
+			<div id="allItems">
+				<input type="text" class="itemDesc" id="category1" placeholder="item 1 category" required /><!--
+				--><input type="text" class="itemDesc" id="name1" placeholder="item 1 keywords" required /><!--
+				--><input type="text" class="itemDesc" id="color1" placeholder="item 1 color" required /><!--
+				--><input type="text" class="itemDesc" id="size1" placeholder="item 1 size" required />
+				<br /><br />
+			</div>
+			
+		</div>
+		<br />
+		<button type="button" id="addItem">add item</button>
+		<button type="button" id="removeItem">remove item</button> <br /><br />
+		<button id="cancel" style="display: none" >cancel</button> 
+		<button id="submit">next</button>
+	</div>
+	<script src="../js/global.js"></script>
+	<script src="../js/items.js"></script>
+</body>
+</html>

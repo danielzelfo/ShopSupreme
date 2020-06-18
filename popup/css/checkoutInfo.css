@@ -1,0 +1,70 @@
+body{
+	min-width: 610px;
+	font-family: Courier;
+	background-image: url("../Shop Logo.png");
+	background-size: 6.25%;
+}
+
+form{
+	width: 610px;
+	background: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h3{
+	color: white;
+	width: 608px;
+	text-align: center;
+	background-color: red;
+	border: 1px solid black;
+}
+
+div{
+	position: relative;
+	width: 608px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+label{
+	color: black;
+	text-align: center;
+	width: 304px;
+	font-weight: bold;
+	
+}
+
+input, select{
+	position: absolute;
+	right: 0;
+	width: 304px;
+	height: 18px;
+	border: none;
+	border-left: 1px solid black;
+	font-family: Courier;
+}
+
+button{
+	position: absolute;
+	background: red;
+	border: 1px solid black;
+	font-family: Arial;
+	color: white;
+	z-index: 2;
+}
+
+#submit{
+	right: 0;
+	width: 100%;	
+}
+#cancel{
+	left: 0;
+	width: 50%;
+}
+
+button:hover{
+	font-weight: bold;
+}

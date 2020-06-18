@@ -1,0 +1,64 @@
+body{
+	min-width: 610px;
+	background-image: url("../Shop Logo.png");
+	background-size: 6.25%;
+}
+
+#popup{
+	background-color: white;
+	position: absolute;
+	width: 500px;
+	height: 350px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#run{
+	position: relative;
+	left: 50%;
+	font-size: 17px;
+	transform: translate(-50%);
+	
+	display: block;
+	
+	background-color: red;
+	color: white;
+	border: none;
+	
+}
+
+#editBox{
+	border-right: 1px solid black;
+	padding-right: 20px;
+}
+#statusBox{
+	padding-left: 20px;
+}
+
+#time {
+	position: relative;
+	left: 50%;
+	transform: translate(-33%);
+	user-select: none;
+}
+
+#checkoutDelayInput {
+	width: 70px;
+}
+
+#autoRunBox, #autoProcessPayment{
+	padding-left: 50px;
+}
+button{
+	cursor: pointer;
+}
+a {
+	color: black; 
+	border: 1px solid grey;
+	padding: 2px;
+	text-decoration: none;
+}
+a:hover{
+	border: 1px solid black;
+}
