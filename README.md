@@ -1,11 +1,9 @@
 # ShopSupreme
 
-![](https://danielzelfo.com/github.io/ShopSupreme/shopsupremedesign.png)
-
 Auto-checkout tool chrome extension for the supremenewyork wesbite.
 
 ---
-[![Get it](https://danielzelfo.github.io/img/min/chrome-webstore.png)](https://chrome.google.com/webstore/detail/supreme-bot-shopsupreme/egoidoeijbfliecicioclcnhmpkbnked)
+<a href="https://chrome.google.com/webstore/detail/supreme-bot-shopsupreme/egoidoeijbfliecicioclcnhmpkbnked"><img src="https://danielzelfo.github.io/img/original/chrome-webstore.svg" alt="chrome-store" width="200"/></a>
 
 ### Free on the chrome webstore!
 
