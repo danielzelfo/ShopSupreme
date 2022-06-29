@@ -20,7 +20,7 @@ fill in the category, keywords, color, and size for each item
 
 ### 2.
 
-![Fill in The Checkout Info](https://danielzelfo.github.io/img/min/portfolio/ShopSupreme/checkout.PNG)
+![Fill in The Checkout Info](https://danielzelfo.github.io/img/min/portfolio/ShopSupreme/checkout.png)
 
 fill in the checkout information
 
