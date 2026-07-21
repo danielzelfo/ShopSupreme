@@ -2,12 +2,6 @@
 
 Auto-checkout tool chrome extension for the supremenewyork wesbite.
 
----
-<a href="https://chrome.google.com/webstore/detail/supreme-bot-shopsupreme/egoidoeijbfliecicioclcnhmpkbnked"><img src="https://danielzelfo.github.io/img/original/chrome-webstore.svg" alt="chrome-store" width="200"/></a>
-
-### Free on the chrome webstore!
-
----
 ## How to Use:
 
 ### 1.
